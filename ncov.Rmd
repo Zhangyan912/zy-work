@@ -4,9 +4,7 @@ output: html_document
 ---
 
 ```{r}
-#首先设置一个工作路径，并把ncov.csv文件放在当前路径下
-setwd("") #设置工作路径
-ncov = read.csv(file = 'ncov.csv')  #读取文件
+ncov = read.csv(file = 'COVID-19/data/ncov.csv')  #读取文件
 ```
 
 ## 1、非湖北新型肺炎确诊病例数时序图（累计）
